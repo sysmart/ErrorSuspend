@@ -1,0 +1,2 @@
+Cambiando  classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.31' a  classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.0' genera muchos errores por el uso de la instrucion "suspend" en corutinas de room.
+El problema es que remover el suspend no es la solución porque entonces no funciona la app.
